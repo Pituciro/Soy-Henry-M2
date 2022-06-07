@@ -81,9 +81,10 @@ toDoText.id= index;
 function buildToDos(toDos) {
   // Tu código acá:
 
-return toDos.map((element,index) => {
-  return buildToDo(element, index);
+const array= toDos.map(function(obj,index){
+ return buildToDo(obj, index);
 })
+return array;
 }
 
 
@@ -105,6 +106,11 @@ let builds= buildToDo(toDoItems);
 
 for(let i = 0; i< builds.length; i++){
   toDoContainer.appendChild(builds[i]);
+  //builds.forEach((element) => (toDoContainer.innerHTML = element));
+  //)
+  //builds.forEach(function(element) {
+    //return(toDoContainer.innerHTML = element);
+  //  })
 }
 }
 
