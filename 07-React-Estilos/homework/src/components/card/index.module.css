@@ -1,0 +1,40 @@
+.contenedor{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(126, 173, 167, 0.637);
+    border-radius: 0.8rem;
+    color: white;
+    position: relative;
+    margin: 1rem;
+}
+.btn {
+    background-color: rgb(199, 53, 53);
+    color: white;
+    border-radius: 0.6rem;
+    padding: 4px;
+    width:fit-content;
+    border: none;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.4rem;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: auto;
+}
+
+.infoTemp{
+    margin: 0.5rem;
+}
+.min{
+    color: rgb(239, 241, 90);
+}
+.max{
+    color: rgb(199, 53, 53);
+}

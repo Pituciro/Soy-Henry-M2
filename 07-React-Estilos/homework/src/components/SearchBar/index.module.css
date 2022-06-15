@@ -1,0 +1,17 @@
+.btn{
+    border: none;
+    background-color:rgb(126, 173, 167);
+    padding: 0.3rem;
+    color: white;
+    border-radius: 0.2rem;
+}
+.contenedor{
+    background-color: rgb(198, 198, 224);
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedorInput{
+    border-radius: 0.2rem;
+    background-color:rgb(235, 161, 161);
+}
